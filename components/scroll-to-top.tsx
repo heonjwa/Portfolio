@@ -1,0 +1,22 @@
+"use client";
+
+import { ReactNode, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+interface ScrollToTopProps {
+  children: ReactNode;
+}
+
+const ScrollToTop: React.FC<ScrollToTopProps> = ({ children }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
+
+  return <>{children}</>;
+};
+
+export default ScrollToTop;

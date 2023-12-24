@@ -13,7 +13,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
           <div className='relative'>
             <motion.div
@@ -27,9 +27,9 @@ export default function Intro() {
               <Image
                 src={portrait}
                 alt="Heons Portrait"
-                height="192"
-                width="192"
-                className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover
+                height="150"
+                width="150"
+                className='h-50 w-50 rounded-l border-[0.35rem] border-white object-cover
                  shadow-xl'
               />
             </motion.div>
@@ -47,16 +47,14 @@ export default function Intro() {
               <Image
                 src={husky}
                 alt="Husky"
-                height="50"
-                width="50"
-                className='h-7 w-10 object-cover'
+                className='h-9 w-12 object-cover'
               />
             </motion.span>
           </div>
 
         </div>
 
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{ opacity: 0, y: 100}}
         animate={{ opacity: 1, y: 0}}
         >
@@ -64,7 +62,7 @@ export default function Intro() {
           <span className="font-bold">Undergraduate Student</span> at the{" "}
           <span className="font-bold">University of Washington</span> studying Computer Science.
           My focus is in{" "}<span className="font-bold">Software Engineering</span>.
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-3 px-4 
         text-lg font-medium'
