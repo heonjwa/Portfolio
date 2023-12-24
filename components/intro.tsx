@@ -10,9 +10,15 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+
+  const {
+    setActiveSection,
+    setTimeOfLastClick,
+  } = useActiveSectionContext();
 
   return (
     <section
@@ -82,6 +88,10 @@ export default function Intro() {
           className="group bg-gray-900 text-white px-7
           py-3 flex items-center rounded-full outline-none
           hover:scale-[1.08] hover:bg-gray-950 active:scale-105 transition cursor-pointer"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now);
+          }}
         >
           Contact me here
           <BsArrowRight className="group-hover:translate-x-1 ml-2 transition opacity-70" />
@@ -90,8 +100,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7
           py-3 flex items-center rounded-full outline-none hover:scale-[1.09]
-          active:scale-105 transition cursor-pointer border
-          border-black/10"
+          active:scale-105 transition cursor-pointer borderBlack"
           href="/Resume.pdf"
           download={true}
         >
@@ -104,7 +113,7 @@ export default function Intro() {
           flex items-center rounded-full outline-none hover:scale-[1.15]
           hover:text-gray-950
           active:scale-110 transition cursor-pointer
-          border border-black/10"
+          borderBlack"
           href="https://linkedin.com/in/heonjwa"
           target="_blank"
         >
@@ -117,7 +126,7 @@ export default function Intro() {
           outline-none hover:scale-[1.08]
           hover:text-gray-950
           active:scale-110 transition cursor-pointer
-          border border-black/10"
+          borderBlack"
           href="https://github.com/heonjwa"
           target="_blank"
         >
