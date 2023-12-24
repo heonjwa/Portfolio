@@ -68,7 +68,7 @@ export const projectsData = [
     imageUrl: gst,
   },
   {
-    title: "Yum-Eats",
+    title: "Yum-Eat",
     description:
       "Worked in a team of eight to develop a full stack web application ",
     tags: ["React", "JavaScript", "PostgreSQL", "Flask", "Python"],
@@ -84,23 +84,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Java",
+  "C",
+  "C++",
   "JavaScript",
   "TypeScript",
+  "HTML",
+  "CSS",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
