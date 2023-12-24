@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { GiTeacher } from "react-icons/gi";
 import { LuGraduationCap } from "react-icons/lu";
 import yumeats from "@/public/Yumeats.png"
 import gst from "@/public/GST.png"
@@ -34,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Started attending University of Washington",
+    location: "Seattle, WA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am an undergraduate student at the University of Washington studying Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2025",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Puloon Technology: Software Engineer Intern",
+    location: "Seoul, Korea",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a software enginner intern at Puloon Technology and worked on diverse mechatronics projects using C and C#.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Teaching Assistant",
+    location: "Seattle, WA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I am currently a part-time teaching assistant for the intro programming class at my school . I conduct sections that consists of 20 students, grade assignments, and hold office hours.",
+    icon: React.createElement(GiTeacher),
+    date: "2023 - Present",
   },
 ] as const;
 
@@ -64,7 +64,7 @@ export const projectsData = [
     title: "Global Sign-Language Translator",
     description:
       "Project I developed with a team of three for the DubHacks hackathon. We won the accessibility hack award out of 100+ teams",
-    tags: ["TensorFlow", "Flask", "React-Native", "Python", "TypeScript"],
+    tags: ["TensorFlow", "Flask", "React-Native", "Python"],
     imageUrl: gst,
   },
   {
@@ -74,13 +74,12 @@ export const projectsData = [
     tags: ["React", "JavaScript", "PostgreSQL", "Flask", "Python"],
     imageUrl: yumeats,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "NotesApp",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  },
 ] as const;
 
 export const skillsData = [
