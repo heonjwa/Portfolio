@@ -100,7 +100,7 @@ export default function Intro() {
         <a
           className="group bg-white px-7
           py-3 flex items-center rounded-full outline-none hover:scale-[1.09]
-          active:scale-105 transition cursor-pointer borderBlack"
+          active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/Resume.pdf"
           download={true}
         >
@@ -113,7 +113,7 @@ export default function Intro() {
           flex items-center rounded-full outline-none hover:scale-[1.15]
           hover:text-gray-950
           active:scale-110 transition cursor-pointer
-          borderBlack"
+          borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/heonjwa"
           target="_blank"
         >
@@ -126,7 +126,7 @@ export default function Intro() {
           outline-none hover:scale-[1.08]
           hover:text-gray-950
           active:scale-110 transition cursor-pointer
-          borderBlack"
+          borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/heonjwa"
           target="_blank"
         >
