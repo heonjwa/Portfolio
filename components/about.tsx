@@ -19,30 +19,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        From a young age, my curosity about{" "}
+        <span className="font-medium">computers,</span>
+        <span className="font-medium"> technology,</span> and
+        <span className="font-medium"> math</span> naturally led me to discover
+        my passion for <span className="italic">Computer Science</span> and{" "}
+        <span className="italic">Programming.</span> I've worked on diverse
+        projects through<span className="font-medium"> school</span>,
+        participating in <span className="font-medium">hackathons</span>, and
+        working with peers within a <span className="font-medium">coding club</span>. I also love to{" "}
+        <span className="font-medium"> teach!</span> As an Introductory
+        Programming <span className="font-medium">Teaching Assistant</span> at
+        my school, I find joy imparting knowledge to others, all while
+        solidfying my own knowledge.
+        {/* I am currently looking for{" "}
+  <span className="italic font-medium">summer internships</span> as a{" "}
+  <span className="font-medium">software engineer.</span> */}
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy playing{" "}
+        <span className="font-medium">video games</span>, playing the <span className="font-medium">piano</span>, 
+        and <span className="font-medium">skiing</span>. I also like{" "}
+        <span className="font-medium">learning new things</span>. I recently started
+        learning <span className="font-medium">calisthenics</span> and <span className="font-medium">Japanese</span> as my third language.
+        
       </p>
     </motion.section>
   );

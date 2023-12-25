@@ -4,6 +4,7 @@ import { GiTeacher } from "react-icons/gi";
 import { LuGraduationCap } from "react-icons/lu";
 import yumeats from "@/public/Yumeats.png"
 import gst from "@/public/GST.png"
+import coolNotesApp from "@/public/CoolNotesApp.png"
 
 export const links = [
   {
@@ -34,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Started attending University of Washington",
+    title: "University of Washington",
     location: "Seattle, WA",
     description:
       "I am an undergraduate student at the University of Washington studying Computer Science.",
@@ -45,7 +46,7 @@ export const experiencesData = [
     title: "Puloon Technology: Software Engineer Intern",
     location: "Seoul, Korea",
     description:
-      "I worked as a software enginner intern at Puloon Technology and worked on diverse mechatronics projects using C and C#.",
+      "I was a software enginner intern that worked on diverse mechatronics projects using C and C#.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
@@ -53,7 +54,7 @@ export const experiencesData = [
     title: "Teaching Assistant",
     location: "Seattle, WA",
     description:
-      "I am currently a part-time teaching assistant for the intro programming class at my school . I conduct sections that consists of 20 students, grade assignments, and hold office hours.",
+      "I am a teaching assistant for the intro programming class at my school. I conduct sections that consists of 20 students, grade assignments, and hold office hours.",
     icon: React.createElement(GiTeacher),
     date: "2023 - Present",
   },
@@ -63,22 +64,23 @@ export const projectsData = [
   {
     title: "Global Sign-Language Translator",
     description:
-      "Project I developed with a team of three for the DubHacks hackathon. We won the accessibility hack award out of 100+ teams",
+      "A mobile application that is able to recognize sign language and translate it to English.",
     tags: ["TensorFlow", "Flask", "React-Native", "Python"],
     imageUrl: gst,
   },
   {
     title: "Yum-Eat",
     description:
-      "Worked in a team of eight to develop a full stack web application ",
+      "A web application that stores given ingredients to recommend dishes and recipes.",
     tags: ["React", "JavaScript", "PostgreSQL", "Flask", "Python"],
     imageUrl: yumeats,
   },
   {
     title: "NotesApp",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A web application with a login feature that stores users' notes.",
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "TypeScript"],
+    imageUrl: coolNotesApp
   },
 ] as const;
 
