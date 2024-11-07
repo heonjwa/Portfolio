@@ -25,7 +25,7 @@ export default function About() {
         <span className="font-medium"> math</span> naturally led me to discover
         my passion for <span className="italic">Computer Science</span> and{" "}
         <span className="italic">Programming.</span> I've worked on diverse
-        projects through<span className="font-medium"> school</span>,
+        projects through<span className="font-medium"> internships, school</span>,
         participating in <span className="font-medium">hackathons</span>, and
         working with peers within a <span className="font-medium">coding club</span>. I also love to{" "}
         <span className="font-medium"> teach!</span> As an Introductory
